@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Baseball Game</title>
+    <link rel="stylesheet" href="BaseballGame.css">
+  </head>
+
+  <body class="background">
+  <div>
+   <h1>Number Baseball Game</h1>
+   <div class="startNrestart">
+    <button class="start-button">도전</button><button class="restart-button">재도전</button>
+   </div>
+   <div class="table-container">
+    <table class="table">
+      <thead>
+       <tr>
+         <th>도전 횟수</th>
+         <th>1회</th>
+         <th>2회</th>
+         <th>3회</th>
+         <th>확인</th>
+         <th>초기화</th>
+         <th>결과</th>
+      </tr>
+      </thead>
+      <tbody>
+       <tr>
+         <td class="times"></td>
+         <td><input type="text" class="first"></td>
+         <td><input type="text" class="second"></td>
+         <td><input type="text" class="third"></td>
+         <td><input type="submit" value="확인" class="check-button"></td>
+         <td><input type="submit" value="초기화" class="recheck-button"></td>
+         <td class="result"></td>
+       </tr>
+      </tbody>
+    </table>
+   </div>
+
+  </div>
+
+  <script src="BaseballGame.js"></script>
+
+  </body>
+</html>

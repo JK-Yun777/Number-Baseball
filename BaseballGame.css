@@ -1,0 +1,48 @@
+.background {
+  background-image: url(image/bacground.jpeg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.startNrestart {
+  text-align: center;
+}
+
+.start-button {
+  margin: 0 10px 20px 0;
+  font-size: 20px;
+  background-color:black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+
+.restart-button {
+  margin: 0 10px 20px 0;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+ border-spacing: 4px 10px;
+}
+
+.times {
+  text-align: center;
+}
+
+.first, .second, .third {
+  width: 30px;
+}
